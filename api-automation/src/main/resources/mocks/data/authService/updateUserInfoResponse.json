@@ -1,0 +1,11 @@
+{
+  "nickname": "JohnDoe",
+  "phone_number": "1234567890",
+  "user_metadata": {
+    "name": "JohnDoe",
+    "yubi_user_id": "123",
+    "email": "example@example.com",
+    "mobile_number": "1234567890",
+    "deviceId": ""
+  }
+}

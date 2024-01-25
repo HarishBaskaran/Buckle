@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "Authorization": "Basic c3Jpaml0aC5zZWV0aGFyYW1hbkBnby15dWJpLmNvbTpzY2NnbUpkYnhjdjVtUFZwYnpEWkM1OUM="
+  },
+  "url": "https://goyubi.atlassian.net/rest/api/2/search?jql=issuetype IN ('Bug-Subtask', 'Bug', 'Production Bug') AND created >= 2023-03-13 and created <= 2023-04-02&maxResults=1000&startAt=0",
+  "method": "get",
+  "output": [
+    {
+      "body": {},
+      "code": 200
+    },
+    {
+      "body": {},
+      "code": 404
+    }
+  ]
+}
