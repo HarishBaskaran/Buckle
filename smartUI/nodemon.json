@@ -1,0 +1,3 @@
+{
+  "ignore": ["./server/result/output.json"]
+}

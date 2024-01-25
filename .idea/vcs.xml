@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SmartAPI" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SmartAPI-BE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/smart-api-nextron" vcs="Git" />
   </component>
 </project>

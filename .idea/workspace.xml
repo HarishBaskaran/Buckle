@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4af549ab-4c00-494e-aed2-847e08adab89" name="Changes" comment="" />
+    <list default="true" id="4af549ab-4c00-494e-aed2-847e08adab89" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SmartAPI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SmartAPI-BE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/deleteWhenEverYouWant/FinalSealedClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/deleteWhenEverYouWant/FindOccurences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/deleteWhenEverYouWant/runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/model/runners/Flags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/model/runners/Values.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/runners/RunnerUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/runners/RunnerWithoutParallelAndReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smart-api-nextron" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartAPI-BE/smartapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SmartAPI-BE/smartapi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/controllers/RunnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/controllers/RunnerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/runners/CollectionRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/runners/CollectionRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/runners/CollectionRunner3.java" beforeDir="false" afterPath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/runners/CollectionRunner3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/runners/CollectionUnitRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/runners/CollectionUnitRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/runners/RunnerWithExtentWithoutParallel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/runners/Runner2.java" beforeDir="false" afterPath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/runners/RunnerWithAllureWithoutParallel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/runners/Runner3.java" beforeDir="false" afterPath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/runners/RunnerWithParallel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/waste/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/waste/AllurePractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/waste/TestNGRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/coe/smartapi/waste/TestNGRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/collections/collect3/second.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/collections/testCollection/1_first.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartAPI-BE/smartapi/src/main/java/collections/testCollection/2_second.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,13 +43,20 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectId" id="2b0QeqrgVTcOwhfXLulcmQyy9Qy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
@@ -38,5 +72,8 @@
       <updated>1705349614570</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

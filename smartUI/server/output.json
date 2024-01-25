@@ -1,0 +1,224 @@
+{
+  "method": "GET",
+  "url": "https://partner-qa-api.myyubiinvest.in/ims/api/v1/listings/search?items=4&q=H&meta_info=true",
+  "headers": {
+    "authorization": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImkxMldYTmFTLS1qSXR1WDFLWXZKdiJ9.eyJodHRwczovL2F1dGgtcWEtYXBpLm15eXViaWludmVzdC5pbi9yb2xlcyI6WzBdLCJodHRwczovL2F1dGgtcWEtYXBpLm15eXViaWludmVzdC5pbi9ncm91cHMiOlsiZGlzdHJpYnV0b3IiXSwiaHR0cHM6Ly9hdXRoLXFhLWFwaS5teXl1YmlpbnZlc3QuaW4vc3ViZ3JvdXBzIjpbXSwiaHR0cHM6Ly9hdXRoLXFhLWFwaS5teXl1YmlpbnZlc3QuaW4vZW50aXR5X2lkIjoiNjM0M2RmOGU4MzU5YmYwMDRhODgxMjI5IiwiaHR0cHM6Ly9hdXRoLXFhLWFwaS5teXl1YmlpbnZlc3QuaW4vbG9jYWxfdXNlcl9pZCI6IjYzNDNkZjhlZWU2MmMxMDA3NTkzNTY1ZCIsImh0dHBzOi8vYXV0aC1xYS1hcGkubXl5dWJpaW52ZXN0LmluL3Nlc3Npb25faWQiOiJaU3RZRnBBY3FrTFlOZUFmMlY1aTl2eG54LVFsSWQ2dCIsImh0dHBzOi8vYXV0aC1xYS1hcGkubXl5dWJpaW52ZXN0LmluL3NraXBfaHJtcyI6dHJ1ZSwiaXNzIjoiaHR0cHM6Ly9hdXRoLXFhLm15eXViaWludmVzdC5pbi8iLCJzdWIiOiJhdXRoMHw2NDEyMTY2NmViNTllNTFhMWRiMDk4MWIiLCJhdWQiOlsiaHR0cHM6Ly9hdXRoLXFhLWFwaS5teXl1YmlpbnZlc3QuaW4iLCJodHRwczovL3l1Ymktc2VjdXJpdGllcy1xYS51cy5hdXRoMC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNjg1OTQ0MjQwLCJleHAiOjE2ODYwMzA2NDAsImF6cCI6InVrNlh5R3FpQzNicnpnVG16QUMyREdqamJsS0VTMXF3Iiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCJ9.P42UgttO7zIlmRc_o_vN487Gjm9RzvIWGBFhHP3eB3RxfHpK_y6qeFyZuJKaK0dDWazXGXTiKJ3Yri71_pU8k67WgGp4Kdsn_18xw7bqwEzi10Ewt_q4aqUBQW1CkdN9HUT_ZRbNywPcFerl9IDUIVNNK42ALPwOETCQdhkL3bUz57w0ly0JqXQADDth3WAAppbnMVre44N4ZorP3QN8z_UckIGMY8Y93F1NpytUn7xXVFFVVWEexoKruunEPYn65C4WXpWeiosN83qbjNI2ia-GnIVk0f51LIyCY3x5qJ1m46QuvdPjFxIamiEa4RAl4HPLDnf5095bRMdCiG0bYQ",
+    "mfa-token": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiNjM0M2RmOGVlZTYyYzEwMDc1OTM1NjVkIiwiZXhwIjoxNjkyODYxMzY3fQ.XVBVJL_WJpfr8AIUWLUt0OoqquHV2uB3vp7IexQXOkg",
+    "current-entity-id": "635f74b6c4ead70062b8fd7b",
+    "current-group": "distributor"
+  },
+  "positive": {},
+  "queryParamsOutput": [
+    {
+      "entity": "https://partner-qa-api.myyubiinvest.in/ims/api/v1/listings/search?items=test&q=H&meta_info=true",
+      "changeSummary": [
+        {
+          "fieldName": "items",
+          "oldFieldType": "string",
+          "oldFieldValue": "4",
+          "newFieldType": "String",
+          "newFieldValue": "test",
+          "status": 400,
+          "response": {}
+        }
+      ],
+      "statusCode": 400
+    },
+    {
+      "entity": "https://partner-qa-api.myyubiinvest.in/ims/api/v1/listings/search?items=1.23&q=H&meta_info=true",
+      "changeSummary": [
+        {
+          "fieldName": "items",
+          "oldFieldType": "string",
+          "oldFieldValue": "4",
+          "newFieldType": "Float",
+          "newFieldValue": 1.23,
+          "status": 400,
+          "response": {}
+        }
+      ],
+      "statusCode": 400
+    },
+    {
+      "entity": "https://partner-qa-api.myyubiinvest.in/ims/api/v1/listings/search?items=&q=H&meta_info=true",
+      "changeSummary": [
+        {
+          "fieldName": "items",
+          "oldFieldType": "string",
+          "oldFieldValue": "4",
+          "newFieldType": "Optional",
+          "newFieldValue": "",
+          "status": 400,
+          "response": {}
+        }
+      ],
+      "statusCode": 400
+    },
+    {
+      "entity": "https://partner-qa-api.myyubiinvest.in/ims/api/v1/listings/search?items=4&q=test&meta_info=true",
+      "changeSummary": [
+        {
+          "fieldName": "q",
+          "oldFieldType": "string",
+          "oldFieldValue": "H",
+          "newFieldType": "String",
+          "newFieldValue": "test",
+          "status": "200",
+          "response": {}
+        }
+      ],
+      "statusCode": "200"
+    },
+    {
+      "entity": "https://partner-qa-api.myyubiinvest.in/ims/api/v1/listings/search?items=4&q=1.23&meta_info=true",
+      "changeSummary": [
+        {
+          "fieldName": "q",
+          "oldFieldType": "string",
+          "oldFieldValue": "H",
+          "newFieldType": "Float",
+          "newFieldValue": 1.23,
+          "status": "200",
+          "response": {}
+        }
+      ],
+      "statusCode": "200"
+    },
+    {
+      "entity": "https://partner-qa-api.myyubiinvest.in/ims/api/v1/listings/search?items=4&q=&meta_info=true",
+      "changeSummary": [
+        {
+          "fieldName": "q",
+          "oldFieldType": "string",
+          "oldFieldValue": "H",
+          "newFieldType": "Optional",
+          "newFieldValue": "",
+          "status": "200",
+          "response": {}
+        }
+      ],
+      "statusCode": "200"
+    },
+    {
+      "entity": "https://partner-qa-api.myyubiinvest.in/ims/api/v1/listings/search?items=4&q=INE076I07012&meta_info=true",
+      "changeSummary": [
+        {
+          "fieldName": "q",
+          "oldFieldType": "string",
+          "oldFieldValue": "H",
+          "newFieldType": "C-string",
+          "newFieldValue": "INE076I07012",
+          "status": "200",
+          "response": {}
+        }
+      ],
+      "statusCode": "200"
+    },
+    {
+      "entity": "https://partner-qa-api.myyubiinvest.in/ims/api/v1/listings/search?items=4&q=76I0&meta_info=true",
+      "changeSummary": [
+        {
+          "fieldName": "q",
+          "oldFieldType": "string",
+          "oldFieldValue": "H",
+          "newFieldType": "C-string",
+          "newFieldValue": "76I0",
+          "status": "200",
+          "response": {}
+        }
+      ],
+      "statusCode": "200"
+    },
+    {
+      "entity": "https://partner-qa-api.myyubiinvest.in/ims/api/v1/listings/search?items=4&q=Spandana&meta_info=true",
+      "changeSummary": [
+        {
+          "fieldName": "q",
+          "oldFieldType": "string",
+          "oldFieldValue": "H",
+          "newFieldType": "C-string",
+          "newFieldValue": "Spandana",
+          "status": "200",
+          "response": {}
+        }
+      ],
+      "statusCode": "200"
+    },
+    {
+      "entity": "https://partner-qa-api.myyubiinvest.in/ims/api/v1/listings/search?items=4&q=Spa&meta_info=true",
+      "changeSummary": [
+        {
+          "fieldName": "q",
+          "oldFieldType": "string",
+          "oldFieldValue": "H",
+          "newFieldType": "C-string",
+          "newFieldValue": "Spa",
+          "status": "200",
+          "response": {}
+        }
+      ],
+      "statusCode": "200"
+    },
+    {
+      "entity": "https://partner-qa-api.myyubiinvest.in/ims/api/v1/listings/search?items=4&q=H&meta_info=test",
+      "changeSummary": [
+        {
+          "fieldName": "meta_info",
+          "oldFieldType": "string",
+          "oldFieldValue": "true",
+          "newFieldType": "String",
+          "newFieldValue": "test",
+          "status": 400,
+          "response": {}
+        }
+      ],
+      "statusCode": 400
+    },
+    {
+      "entity": "https://partner-qa-api.myyubiinvest.in/ims/api/v1/listings/search?items=4&q=H&meta_info=2",
+      "changeSummary": [
+        {
+          "fieldName": "meta_info",
+          "oldFieldType": "string",
+          "oldFieldValue": "true",
+          "newFieldType": "Integer",
+          "newFieldValue": 2,
+          "status": 400,
+          "response": {}
+        }
+      ],
+      "statusCode": 400
+    },
+    {
+      "entity": "https://partner-qa-api.myyubiinvest.in/ims/api/v1/listings/search?items=4&q=H&meta_info=1.23",
+      "changeSummary": [
+        {
+          "fieldName": "meta_info",
+          "oldFieldType": "string",
+          "oldFieldValue": "true",
+          "newFieldType": "Float",
+          "newFieldValue": 1.23,
+          "status": 400,
+          "response": {}
+        }
+      ],
+      "statusCode": 400
+    },
+    {
+      "entity": "https://partner-qa-api.myyubiinvest.in/ims/api/v1/listings/search?items=4&q=H&meta_info=",
+      "changeSummary": [
+        {
+          "fieldName": "meta_info",
+          "oldFieldType": "string",
+          "oldFieldValue": "true",
+          "newFieldType": "Optional",
+          "newFieldValue": "",
+          "status": 400,
+          "response": {}
+        }
+      ],
+      "statusCode": 400
+    }
+  ],
+  "output": []
+}
