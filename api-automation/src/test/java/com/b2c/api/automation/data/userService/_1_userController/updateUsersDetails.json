@@ -1,0 +1,7 @@
+{
+  "name": "string",
+  "email": "string",
+  "mobileNumber": "string",
+  "emailVerified": true,
+  "mobileNumberVerified": true
+}

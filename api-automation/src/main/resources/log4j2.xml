@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+        <RollingFile name="RollingFile" fileName="${sys:user.home}/logs2/log_file.txt"
+                     filePattern="${sys:user.home}/logs2/$${date:yyyy-MM}/info-%d{yyyy-MM-dd}-%i.log">
+             <PatternLayout pattern="[%p] - [%d{yyyy/MM/dd HH:mm:ss.SSS}]%m | (%C{1}^%M:%L)%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="2 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="30"/>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+<!--        <logger name="com.intuit" level="DEBUG"/>-->
+        <Logger name="org.thymeleaf" additivity="false" level="info">
+            <AppenderRef ref="RollingFile"/>
+        </Logger>
+
+        <Logger name="com.jayway.jsonpath" additivity="false" level="info">
+            <AppenderRef ref="RollingFile"/>
+        </Logger>
+
+        <Logger name="io.netty.util" additivity="false" level="info">
+            <AppenderRef ref="RollingFile"/>
+        </Logger>
+
+        <Logger name="ch.qos.logback.classic" additivity="false" level="warn">
+            <AppenderRef ref="Console"/>
+        </Logger>
+
+        <Logger name="org.apache.http" additivity="false" level="info">
+            <AppenderRef ref="RollingFile"/>
+        </Logger>
+
+        <Logger name="org.apache.velocity" additivity="false" level="info">
+            <AppenderRef ref="RollingFile"/>
+        </Logger>
+
+        <Logger name="net.masterthought.cucumber" additivity="false" level="info">
+            <AppenderRef ref="RollingFile"/>
+        </Logger>
+
+
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+        </Root>
+
+    </Loggers>
+</Configuration>
