@@ -1,8 +1,0 @@
-{
-  "errors": [
-    {
-      "errorCode": "err.auth.user-not-found",
-      "message": "User not found, Please signup and try again"
-    }
-  ]
-}

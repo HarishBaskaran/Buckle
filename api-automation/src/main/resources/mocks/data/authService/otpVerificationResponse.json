@@ -1,7 +1,0 @@
-{
-  "access_token": "your_access_token_value",
-  "refresh_token": "your_refresh_token_value",
-  "id_token": "your_id_token_value",
-  "token_type": "your_token_type_value",
-  "expires_in": "your_expires_in_value"
-}

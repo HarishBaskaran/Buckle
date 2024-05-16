@@ -1,9 +1,0 @@
-{
-  "errors": [
-    {
-      "errorCode": "err.auth.bad-request",
-      "message": "Invalid OTP",
-      "constraintViolations": null
-    }
-  ]
-}

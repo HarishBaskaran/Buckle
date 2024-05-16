@@ -1,8 +1,0 @@
-{
-  "errors": [
-    {
-      "errorCode": "err.auth.reached-rate-limit",
-      "message": "You have reached your OTP limit. Please try again after 30 mins."
-    }
-  ]
-}
